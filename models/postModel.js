@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // route handler
 const postSchema = new mongoose.Schema({
-    tilte: {
+    title: {
         type: String, 
         required: true,
     },

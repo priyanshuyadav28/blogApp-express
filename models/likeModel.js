@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 // route handler
 const likeSchema = new mongoose.Schema({
     post: {
-        type: mongoose.Schmea.Types.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
         ref: "Post",
     }, 
     user: {
